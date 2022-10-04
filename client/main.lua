@@ -23,15 +23,3 @@ end)
 RegisterCommand("notify", function()
 	Notify("info", "Informacja", "Testowa Notyfikacja Informacyjna", 5000, "right")
 end)
-
-
--- EXPORTY
-
---[[
-	exports['cde-notify']:Notify("system", "System", "Testowa Notyfikacja Systemowa", 5000, "right")
-	exports['cde-notify']:Notify("info", "Informacja", "Testowa Notyfikacja Informacyjna", 5000, "left")
-	exports['cde-notify']:Notify("success", "Sukces", "Testowa Notyfikacja Sukcesowa", 5000, "right")
-	exports['cde-notify']:Notify("error", "Błąd", "Testowa Notyfikacja Błędowa", 5000, "left")
-	exports['cde-notify']:Notify("warning", "Ostrzeżenie", "Testowa Notyfikacja Ostrzeżenia", 5000, "right")
-	exports['cde-notify']:Notify("sms", "SMS", "Testowa Notyfikacja SMS", 5000, "left")
-]]
